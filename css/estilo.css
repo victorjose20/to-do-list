@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    
+    justify-content: center;
+}
+
+
+.container{
+    min-width: 500px;
+    padding: 30px 60px;
+   
+    width: 40%;
+
+}
+
+.caixa{
+    
+    background: cadetblue;
+    padding: 30px 10px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.campo{
+    flex: 3;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    font-weight: 500;
+}
+
+.campo:focus{
+    outline: none;
+    border-color: #41b883;
+}
+
+.caixa-botao{
+    flex: 1;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 100%;
+    font-size: 1rem;
+    border: none;
+    background-color: #41b883;
+    color: white;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.tarefas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);;
+    list-style-type: none;
+}
+.delete{
+    border-radius: 5px;
+    font-weight: 500;
+    border: none;
+    background-color: #41b883;
+    color: white;
+    padding: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+
+.error{
+    border: 2px solid red !important;
+}
